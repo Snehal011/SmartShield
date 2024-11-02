@@ -1,4 +1,13 @@
-# SmartShield
+# SmartShield: IoT-Based Emergency Alert Device for Women’s Safety
+
+# 📖 Project Overview
+SmartShield is an IoT-based personal safety device designed to assist women in alerting emergency contacts during unsafe situations. By pressing an emergency switch, the device immediately sends an alert email containing the user’s real-time location obtained through the LAN connection and a photo to a set of emergency contacts.
+
+Built using a Raspberry Pi, this project incorporates an emergency switch to trigger the alert, a LAN-based location tracking feature, and a camera to capture images in real time.
+
+# 🌟 Features
+Emergency Switch Activation: A single press sends an email alert with the user’s location and a captured image.
+LAN-Based Location Tracking: Captures the user’s current location using LAN.
 Photo Attachment: Captures and sends an image to give emergency contacts more context.
 
 # 🛠 Hardware and Software Requirements
@@ -28,5 +37,3 @@ An example of the email alert includes
 
 Location:https://www.google.com/maps/search/?api=1&query=20.0024,73.7945
 Image:![Alert Image](images/WhatsApp Image 2024-11-01 at 08.35.46_08703ab8.jpg)
-
-
